@@ -32,6 +32,7 @@ const postsContainer = document.querySelector(".posts_container");
 
 // Add our Posts to the DOM
 const addToDom = (post) => {
+
   const postCard = document.createElement("div");
   postCard.classList.add("post_card");
 
