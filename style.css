@@ -1,17 +1,17 @@
-*{
+* {
   font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-style: normal;
 
-  
+  margin: 0;
+  padding: 0;
 }
 
-h1 {
+body h1 {
   text-align: center;
   background-color: #006cc5;
   padding: 10px 5px;
-  border-radius: 5px;
   color: #fff;
+  margin: 0 0 15px 0;
+
 }
 
 .posts_container {
@@ -22,29 +22,30 @@ h1 {
 }
 
 .post_card {
-  padding: 4px 10px;
+  padding: 10px;
   border-radius: 10px;
   background-color: #006cc5;
   box-shadow: 6px 5px 5px 0px rgba(0, 0, 0, 0.3);
   width: 300px;
   text-align: center;
   color: #fff8dc;
+  gap: 15px;
 }
 
-.post_card:hover{
+.post_card:hover {
   transform: scale(110%);
   transition: ease-in-out 0.3s;
   background-color: #001e37;
  
-
 }
 
 .title {
   font-weight: bold;
   text-transform: uppercase;
+  margin: 0 0 15px 0;
 }
 
 .body {
   font-size: small;
+  overflow: hidden;
 }
-
