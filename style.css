@@ -4,17 +4,19 @@
   
 }
 
-
-
 h1 {
   text-align: center;
+  background-color: #006cc5;
+  padding: 10px 5px;
+  border-radius: 5px;
+  color: #fff;
 }
 
 .posts_container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 10px;
+  gap: 15px;
 }
 
 .post_card {
@@ -31,6 +33,7 @@ h1 {
   transform: scale(110%);
   transition: ease-in-out 0.3s;
   background-color: #001e37;
+ 
 
 }
 
@@ -43,9 +46,3 @@ h1 {
   font-size: small;
 }
 
-h1{
-  background-color: #006cc5;
-  padding: 10px 5px;
-  border-radius: 5px;
-  color: #fff;
-}
